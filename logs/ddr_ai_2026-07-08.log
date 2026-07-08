@@ -1,0 +1,900 @@
+[2026-07-08 00:19:30] [INFO] [analyzer.py:363] - Initializing multi-stage AI Diagnostics Pipeline...
+[2026-07-08 00:19:30] [INFO] [analyzer.py:384] - Stage 1 complete. Extracted 1 raw observations.
+[2026-07-08 00:19:30] [INFO] [analyzer.py:408] - Stage 2 complete. Grouped observations into 1 areas.
+[2026-07-08 00:19:30] [INFO] [analyzer.py:421] - Consolidated and analyzed observations into 1 unique findings.
+[2026-07-08 00:19:30] [INFO] [analyzer.py:428] - Stage 4 complete (reused consolidated analysis).
+[2026-07-08 00:19:30] [INFO] [analyzer.py:435] - Stage 5 complete (reused consolidated analysis).
+[2026-07-08 00:19:30] [INFO] [analyzer.py:442] - Stage 6 complete (reused consolidated analysis).
+[2026-07-08 00:19:30] [INFO] [analyzer.py:463] - Stage 7 complete. Generated recommendations and report details.
+[2026-07-08 00:19:30] [INFO] [analyzer.py:470] - Stage 8 complete (reused consolidated synthesis).
+[2026-07-08 00:19:30] [INFO] [analyzer.py:481] - DDR successfully validated against Pydantic schema!
+[2026-07-08 00:19:30] [INFO] [analyzer.py:237] - Attempting to repair truncated JSON...
+[2026-07-08 00:19:30] [INFO] [analyzer.py:255] - JSON repair successful! Salvaged partial data.
+[2026-07-08 00:19:30] [INFO] [analyzer.py:237] - Attempting to repair truncated JSON...
+[2026-07-08 00:19:30] [INFO] [analyzer.py:255] - JSON repair successful! Salvaged partial data.
+[2026-07-08 00:19:30] [WARNING] [analyzer.py:326] - JSON substring parse failed: Expecting ',' delimiter: line 10 column 6 (char 224). Attempting truncated JSON repair...
+[2026-07-08 00:19:30] [INFO] [analyzer.py:237] - Attempting to repair truncated JSON...
+[2026-07-08 00:19:30] [INFO] [analyzer.py:269] - JSON repair successful via fallback! Salvaged partial data.
+[2026-07-08 00:19:30] [INFO] [image_extractor.py:54] - Extracting images from image_test_report.pdf...
+[2026-07-08 00:19:30] [INFO] [image_extractor.py:75] - Found 1 image records on page 1.
+[2026-07-08 00:19:30] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_150824c7 (IMG_150824c7.png) from page 1.
+[2026-07-08 00:19:30] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 1 images in total.
+[2026-07-08 00:19:30] [INFO] [parser.py:16] - Attempting native text extraction from: test_report.pdf
+[2026-07-08 00:19:30] [INFO] [parser.py:28] - Native extraction successful. Extracted 111 characters.
+[2026-07-08 00:19:36] [WARNING] [ocr.py:12] - Tesseract executable not found at specified path: 'C:\Program Files\Tesseract-OCR\tesseract.exe'. Will attempt to run using system PATH.
+[2026-07-08 00:19:36] [INFO] [parser.py:16] - Attempting native text extraction from: test_report.pdf
+[2026-07-08 00:19:36] [INFO] [parser.py:28] - Native extraction successful. Extracted 111 characters.
+[2026-07-08 00:19:36] [INFO] [report_generator.py:62] - Generating DOCX report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\test_run_output.docx
+[2026-07-08 00:19:37] [INFO] [report_generator.py:278] - DOCX report saved successfully.
+[2026-07-08 00:19:37] [INFO] [report_generator.py:318] - Generating PDF report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\test_run_output.pdf
+[2026-07-08 00:19:37] [INFO] [report_generator.py:567] - PDF report saved successfully.
+[2026-07-08 00:20:18] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 00:20:18] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 00:20:18] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 00:20:18] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 00:20:18] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 00:20:18] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 00:20:18] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 00:20:18] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 00:20:18] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 00:21:03] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 00:21:03] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 00:21:03] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 00:21:03] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 00:21:03] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 00:21:03] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 00:21:03] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 00:21:03] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 00:21:03] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 00:21:10] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 00:21:10] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 00:21:10] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 00:21:10] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 00:21:10] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 00:21:10] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 00:21:10] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 00:21:10] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 00:21:10] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 00:21:15] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 00:21:15] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 00:21:15] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 00:21:15] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 00:21:15] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 00:21:15] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 00:21:15] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 00:21:15] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 00:21:15] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 00:21:17] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 00:21:17] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 00:21:17] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 00:21:17] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 00:21:17] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 00:21:17] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 00:21:17] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 00:21:17] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 00:21:17] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 00:21:17] [INFO] [app.py:212] - Initializing document processing pipeline...
+[2026-07-08 00:21:17] [INFO] [app.py:212] - PDF reports written locally to temp workspace.
+[2026-07-08 00:21:17] [INFO] [app.py:212] - Step 1: Extracting images and spatial layout metadata...
+[2026-07-08 00:21:17] [INFO] [image_extractor.py:54] - Extracting images from visual_inspection_report.pdf...
+[2026-07-08 00:21:17] [INFO] [image_extractor.py:75] - Found 1 image records on page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_af30986a (IMG_af30986a.png) from page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:75] - Found 1 image records on page 2.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_b548165a (IMG_b548165a.png) from page 2.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:75] - Found 15 image records on page 3.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_508eab74 (IMG_508eab74.png) from page 3.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_a36320ac (IMG_a36320ac.jpeg) from page 3.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_e57f2ab9 (IMG_e57f2ab9.jpeg) from page 3.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_46fde3f5 (IMG_46fde3f5.jpeg) from page 3.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_84efc26f (IMG_84efc26f.jpeg) from page 3.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_cf0f059c (IMG_cf0f059c.jpeg) from page 3.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_1bee935f (IMG_1bee935f.jpeg) from page 3.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_f729634a (IMG_f729634a.jpeg) from page 3.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_8c533e48 (IMG_8c533e48.jpeg) from page 3.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_13b0ae85 (IMG_13b0ae85.jpeg) from page 3.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_01ed5a42 (IMG_01ed5a42.jpeg) from page 3.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_844912dc (IMG_844912dc.jpeg) from page 3.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_58488877 (IMG_58488877.jpeg) from page 3.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_a376eb6c (IMG_a376eb6c.jpeg) from page 3.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_a673f832 (IMG_a673f832.jpeg) from page 3.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:75] - Found 19 image records on page 4.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_d1c9d610 (IMG_d1c9d610.png) from page 4.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_33bb05bb (IMG_33bb05bb.jpeg) from page 4.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_8a7218a6 (IMG_8a7218a6.jpeg) from page 4.
+[2026-07-08 00:21:18] [WARNING] [image_extractor.py:66] - Reached limit of MAX_IMAGES (20). Stopping image extraction.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 20 images in total.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:54] - Extracting images from thermal_inspection_report.pdf...
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:75] - Found 180 image records on page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_f3180279 (IMG_f3180279.png) from page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_4a3f81c7 (IMG_4a3f81c7.png) from page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_00cb335f (IMG_00cb335f.png) from page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_9386f93d (IMG_9386f93d.jpeg) from page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_f7c509e8 (IMG_f7c509e8.jpeg) from page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_691e519f (IMG_691e519f.png) from page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_b1f4084f (IMG_b1f4084f.png) from page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_11801f0d (IMG_11801f0d.png) from page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_d20df2ef (IMG_d20df2ef.png) from page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_40c047ce (IMG_40c047ce.jpeg) from page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_bb7c83e6 (IMG_bb7c83e6.jpeg) from page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_72da7b83 (IMG_72da7b83.png) from page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_75f2d3f2 (IMG_75f2d3f2.png) from page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_04b66fbc (IMG_04b66fbc.png) from page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_3a87fdea (IMG_3a87fdea.png) from page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_d4b7a446 (IMG_d4b7a446.jpeg) from page 1.
+[2026-07-08 00:21:18] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_bf255a09 (IMG_bf255a09.jpeg) from page 1.
+[2026-07-08 00:21:19] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_3c0a56a6 (IMG_3c0a56a6.png) from page 1.
+[2026-07-08 00:21:19] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_77bf93d4 (IMG_77bf93d4.png) from page 1.
+[2026-07-08 00:21:19] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_40bd8172 (IMG_40bd8172.png) from page 1.
+[2026-07-08 00:21:19] [WARNING] [image_extractor.py:66] - Reached limit of MAX_IMAGES (20). Stopping image extraction.
+[2026-07-08 00:21:19] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 20 images in total.
+[2026-07-08 00:21:19] [INFO] [app.py:212] - Extracted a total of 40 images.
+[2026-07-08 00:21:19] [INFO] [app.py:212] - Step 2: Parsing document text (Native text extraction & OCR fallback)...
+[2026-07-08 00:21:19] [INFO] [parser.py:16] - Attempting native text extraction from: visual_inspection_report.pdf
+[2026-07-08 00:21:19] [INFO] [parser.py:28] - Native extraction successful. Extracted 7391 characters.
+[2026-07-08 00:21:19] [INFO] [parser.py:16] - Attempting native text extraction from: thermal_inspection_report.pdf
+[2026-07-08 00:21:19] [INFO] [parser.py:28] - Native extraction successful. Extracted 6175 characters.
+[2026-07-08 00:21:19] [INFO] [app.py:212] - Inspection text length: 7391 chars.
+[2026-07-08 00:21:19] [INFO] [app.py:212] - Thermal text length: 6175 chars.
+[2026-07-08 00:21:19] [INFO] [app.py:212] - Step 3: Activating multi-stage AI reasoning pipeline...
+[2026-07-08 00:21:19] [INFO] [analyzer.py:363] - Initializing multi-stage AI Diagnostics Pipeline...
+[2026-07-08 00:21:19] [INFO] [app.py:212] - AI Stage 1/9: Stage 1/9: Extracting raw observations from reports...
+[2026-07-08 00:21:20] [DEBUG] [analyzer.py:187] - Calling DeepSeek (qwen/qwen3.5-397b-a17b) with prompt length: 38603
+[2026-07-08 00:22:32] [DEBUG] [analyzer.py:213] - DeepSeek response character length: 738
+[2026-07-08 00:22:32] [INFO] [analyzer.py:384] - Stage 1 complete. Extracted 0 raw observations.
+[2026-07-08 00:22:32] [ERROR] [analyzer.py:387] - Stage 1 produced zero observations. Cannot continue pipeline.
+[2026-07-08 00:22:32] [ERROR] [app.py:286] - Unexpected error in pipeline.
+Traceback (most recent call last):
+  File "C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\app.py", line 267, in <module>
+    ddr_report = run_analysis_pipeline(
+        visual_text=visual_text,
+    ...<5 lines>...
+        progress_callback=update_progress_callback
+    )
+  File "C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\analyzer.py", line 388, in run_analysis_pipeline
+    raise ValueError("Stage 1 extraction failed: No observations could be extracted from the reports. The API response may have been too short. Please try again.")
+ValueError: Stage 1 extraction failed: No observations could be extracted from the reports. The API response may have been too short. Please try again.
+[2026-07-08 00:24:17] [INFO] [parser.py:16] - Attempting native text extraction from: visual_inspection_report.pdf
+[2026-07-08 00:24:17] [INFO] [parser.py:28] - Native extraction successful. Extracted 7391 characters.
+[2026-07-08 00:24:17] [INFO] [parser.py:16] - Attempting native text extraction from: thermal_inspection_report.pdf
+[2026-07-08 00:24:17] [INFO] [parser.py:28] - Native extraction successful. Extracted 6175 characters.
+[2026-07-08 00:25:11] [INFO] [parser.py:16] - Attempting native text extraction from: visual_inspection_report.pdf
+[2026-07-08 00:25:11] [INFO] [parser.py:28] - Native extraction successful. Extracted 7391 characters.
+[2026-07-08 00:25:11] [INFO] [parser.py:16] - Attempting native text extraction from: thermal_inspection_report.pdf
+[2026-07-08 00:25:11] [INFO] [parser.py:28] - Native extraction successful. Extracted 6175 characters.
+[2026-07-08 00:25:25] [INFO] [parser.py:16] - Attempting native text extraction from: visual_inspection_report.pdf
+[2026-07-08 00:25:25] [INFO] [parser.py:28] - Native extraction successful. Extracted 7391 characters.
+[2026-07-08 00:25:25] [INFO] [parser.py:16] - Attempting native text extraction from: thermal_inspection_report.pdf
+[2026-07-08 00:25:25] [INFO] [parser.py:28] - Native extraction successful. Extracted 6175 characters.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:54] - Extracting images from visual_inspection_report.pdf...
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:75] - Found 1 image records on page 1.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_7dce8577 (IMG_7dce8577.png) from page 1.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:75] - Found 1 image records on page 2.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_8ccd6a06 (IMG_8ccd6a06.png) from page 2.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:75] - Found 15 image records on page 3.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_4d6ed361 (IMG_4d6ed361.png) from page 3.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_6faaa83a (IMG_6faaa83a.jpeg) from page 3.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_d9e1167c (IMG_d9e1167c.jpeg) from page 3.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_48ec97be (IMG_48ec97be.jpeg) from page 3.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_3b52c460 (IMG_3b52c460.jpeg) from page 3.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_5d487e38 (IMG_5d487e38.jpeg) from page 3.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_58ff4b38 (IMG_58ff4b38.jpeg) from page 3.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_aec8bf29 (IMG_aec8bf29.jpeg) from page 3.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_0e05d578 (IMG_0e05d578.jpeg) from page 3.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_ff68795f (IMG_ff68795f.jpeg) from page 3.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_2032253a (IMG_2032253a.jpeg) from page 3.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_56ffa5e5 (IMG_56ffa5e5.jpeg) from page 3.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_47bee2b4 (IMG_47bee2b4.jpeg) from page 3.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_70599fb2 (IMG_70599fb2.jpeg) from page 3.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_63196839 (IMG_63196839.jpeg) from page 3.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:75] - Found 19 image records on page 4.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_97e19b01 (IMG_97e19b01.png) from page 4.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_45c451f5 (IMG_45c451f5.jpeg) from page 4.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_10623931 (IMG_10623931.jpeg) from page 4.
+[2026-07-08 00:25:25] [WARNING] [image_extractor.py:66] - Reached limit of MAX_IMAGES (20). Stopping image extraction.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 20 images in total.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:54] - Extracting images from thermal_inspection_report.pdf...
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:75] - Found 180 image records on page 1.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_4afe3893 (IMG_4afe3893.png) from page 1.
+[2026-07-08 00:25:25] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_32595e89 (IMG_32595e89.png) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_54eb1215 (IMG_54eb1215.png) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_99ed5986 (IMG_99ed5986.jpeg) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_45a057a5 (IMG_45a057a5.jpeg) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_f70f506a (IMG_f70f506a.png) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_594fb3a4 (IMG_594fb3a4.png) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_71c010e2 (IMG_71c010e2.png) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_c139ba8c (IMG_c139ba8c.png) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_5458cf81 (IMG_5458cf81.jpeg) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_3589fb61 (IMG_3589fb61.jpeg) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_95283813 (IMG_95283813.png) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_3364e458 (IMG_3364e458.png) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_7109b960 (IMG_7109b960.png) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_c6656bc6 (IMG_c6656bc6.png) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_5098bad6 (IMG_5098bad6.jpeg) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_745ed202 (IMG_745ed202.jpeg) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_111d158b (IMG_111d158b.png) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_8193b930 (IMG_8193b930.png) from page 1.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_49992b11 (IMG_49992b11.png) from page 1.
+[2026-07-08 00:25:26] [WARNING] [image_extractor.py:66] - Reached limit of MAX_IMAGES (20). Stopping image extraction.
+[2026-07-08 00:25:26] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 20 images in total.
+[2026-07-08 00:25:41] [INFO] [parser.py:16] - Attempting native text extraction from: visual_inspection_report.pdf
+[2026-07-08 00:25:42] [INFO] [parser.py:28] - Native extraction successful. Extracted 7391 characters.
+[2026-07-08 00:25:42] [INFO] [parser.py:16] - Attempting native text extraction from: thermal_inspection_report.pdf
+[2026-07-08 00:25:42] [INFO] [parser.py:28] - Native extraction successful. Extracted 6175 characters.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:54] - Extracting images from visual_inspection_report.pdf...
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:75] - Found 1 image records on page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_1a3de614 (IMG_1a3de614.png) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:75] - Found 1 image records on page 2.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_fa61e7c2 (IMG_fa61e7c2.png) from page 2.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:75] - Found 15 image records on page 3.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_be90f04c (IMG_be90f04c.png) from page 3.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_e3f203e9 (IMG_e3f203e9.jpeg) from page 3.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_79062a6a (IMG_79062a6a.jpeg) from page 3.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_d09f1bdd (IMG_d09f1bdd.jpeg) from page 3.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_b225a6bf (IMG_b225a6bf.jpeg) from page 3.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_f34178df (IMG_f34178df.jpeg) from page 3.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_9cb7d1e9 (IMG_9cb7d1e9.jpeg) from page 3.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_2a48b7ed (IMG_2a48b7ed.jpeg) from page 3.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_8238cccd (IMG_8238cccd.jpeg) from page 3.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_7d3c75d6 (IMG_7d3c75d6.jpeg) from page 3.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_6a855fc8 (IMG_6a855fc8.jpeg) from page 3.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_780e1624 (IMG_780e1624.jpeg) from page 3.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_2d1767c1 (IMG_2d1767c1.jpeg) from page 3.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_3ad534f8 (IMG_3ad534f8.jpeg) from page 3.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_1565cf3d (IMG_1565cf3d.jpeg) from page 3.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:75] - Found 19 image records on page 4.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_3208afee (IMG_3208afee.png) from page 4.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_4bf611ec (IMG_4bf611ec.jpeg) from page 4.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_54e1888f (IMG_54e1888f.jpeg) from page 4.
+[2026-07-08 00:25:42] [WARNING] [image_extractor.py:66] - Reached limit of MAX_IMAGES (20). Stopping image extraction.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 20 images in total.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:54] - Extracting images from thermal_inspection_report.pdf...
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:75] - Found 180 image records on page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_551213a3 (IMG_551213a3.png) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_0a4f35bc (IMG_0a4f35bc.png) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_babac468 (IMG_babac468.png) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_83c0f7cb (IMG_83c0f7cb.jpeg) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_97d5dc20 (IMG_97d5dc20.jpeg) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_72bfda89 (IMG_72bfda89.png) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_221f7bbc (IMG_221f7bbc.png) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_b5c3bed6 (IMG_b5c3bed6.png) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_bfa84b04 (IMG_bfa84b04.png) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_cee6f08c (IMG_cee6f08c.jpeg) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_b227758f (IMG_b227758f.jpeg) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_9c6199f5 (IMG_9c6199f5.png) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_5b641b02 (IMG_5b641b02.png) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_9f8ab6f1 (IMG_9f8ab6f1.png) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_7cc10515 (IMG_7cc10515.png) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_3eb9ae61 (IMG_3eb9ae61.jpeg) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_b0ea844a (IMG_b0ea844a.jpeg) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_80227e36 (IMG_80227e36.png) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_9a939af1 (IMG_9a939af1.png) from page 1.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_955fe365 (IMG_955fe365.png) from page 1.
+[2026-07-08 00:25:42] [WARNING] [image_extractor.py:66] - Reached limit of MAX_IMAGES (20). Stopping image extraction.
+[2026-07-08 00:25:42] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 20 images in total.
+[2026-07-08 00:27:28] [INFO] [parser.py:16] - Attempting native text extraction from: visual_inspection_report.pdf
+[2026-07-08 00:27:28] [INFO] [parser.py:28] - Native extraction successful. Extracted 7391 characters.
+[2026-07-08 00:27:28] [INFO] [parser.py:16] - Attempting native text extraction from: thermal_inspection_report.pdf
+[2026-07-08 00:27:28] [INFO] [parser.py:28] - Native extraction successful. Extracted 6175 characters.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:54] - Extracting images from visual_inspection_report.pdf...
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:75] - Found 1 image records on page 1.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_96360f9f (IMG_96360f9f.png) from page 1.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:75] - Found 1 image records on page 2.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_acef71ca (IMG_acef71ca.png) from page 2.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:75] - Found 15 image records on page 3.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_471f4cb7 (IMG_471f4cb7.png) from page 3.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_7d3ae19d (IMG_7d3ae19d.jpeg) from page 3.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_57751ee2 (IMG_57751ee2.jpeg) from page 3.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_010f57f3 (IMG_010f57f3.jpeg) from page 3.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_bae8ff8e (IMG_bae8ff8e.jpeg) from page 3.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_1a48f1c3 (IMG_1a48f1c3.jpeg) from page 3.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_738f1741 (IMG_738f1741.jpeg) from page 3.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_40995d98 (IMG_40995d98.jpeg) from page 3.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_dd1543d1 (IMG_dd1543d1.jpeg) from page 3.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_27c48f58 (IMG_27c48f58.jpeg) from page 3.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_f39be5e6 (IMG_f39be5e6.jpeg) from page 3.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_638996a8 (IMG_638996a8.jpeg) from page 3.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_81b9a280 (IMG_81b9a280.jpeg) from page 3.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_8db98d31 (IMG_8db98d31.jpeg) from page 3.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_ded50c2e (IMG_ded50c2e.jpeg) from page 3.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:75] - Found 19 image records on page 4.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_b072aa3d (IMG_b072aa3d.png) from page 4.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_b3a74256 (IMG_b3a74256.jpeg) from page 4.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_4054ac8d (IMG_4054ac8d.jpeg) from page 4.
+[2026-07-08 00:27:28] [WARNING] [image_extractor.py:66] - Reached limit of MAX_IMAGES (20). Stopping image extraction.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 20 images in total.
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:54] - Extracting images from thermal_inspection_report.pdf...
+[2026-07-08 00:27:28] [INFO] [image_extractor.py:75] - Found 180 image records on page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_875021af (IMG_875021af.png) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_35a1327d (IMG_35a1327d.png) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_ffb98bd1 (IMG_ffb98bd1.png) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_6046c7f6 (IMG_6046c7f6.jpeg) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_5c9bac09 (IMG_5c9bac09.jpeg) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_e729ba3e (IMG_e729ba3e.png) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_2e28faaa (IMG_2e28faaa.png) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_2b0cd4fa (IMG_2b0cd4fa.png) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_74bd61d4 (IMG_74bd61d4.png) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_3f031e1d (IMG_3f031e1d.jpeg) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_cfa071d8 (IMG_cfa071d8.jpeg) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_19f827c5 (IMG_19f827c5.png) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_0460bf47 (IMG_0460bf47.png) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_f646729e (IMG_f646729e.png) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_a16ac18a (IMG_a16ac18a.png) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_0333e7b0 (IMG_0333e7b0.jpeg) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_763709f9 (IMG_763709f9.jpeg) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_d5b2c1b8 (IMG_d5b2c1b8.png) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_89a284c2 (IMG_89a284c2.png) from page 1.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_de0519f5 (IMG_de0519f5.png) from page 1.
+[2026-07-08 00:27:29] [WARNING] [image_extractor.py:66] - Reached limit of MAX_IMAGES (20). Stopping image extraction.
+[2026-07-08 00:27:29] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 20 images in total.
+[2026-07-08 00:28:07] [INFO] [parser.py:16] - Attempting native text extraction from: visual_inspection_report.pdf
+[2026-07-08 00:28:07] [INFO] [parser.py:28] - Native extraction successful. Extracted 7391 characters.
+[2026-07-08 00:28:07] [INFO] [parser.py:16] - Attempting native text extraction from: thermal_inspection_report.pdf
+[2026-07-08 00:28:07] [INFO] [parser.py:28] - Native extraction successful. Extracted 6175 characters.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:54] - Extracting images from visual_inspection_report.pdf...
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:75] - Found 1 image records on page 1.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_698637af (IMG_698637af.png) from page 1.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:75] - Found 1 image records on page 2.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_304b1f67 (IMG_304b1f67.png) from page 2.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:75] - Found 15 image records on page 3.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_cbade3b0 (IMG_cbade3b0.png) from page 3.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_f6335ce0 (IMG_f6335ce0.jpeg) from page 3.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_ef94b5e9 (IMG_ef94b5e9.jpeg) from page 3.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_3cdb8b0e (IMG_3cdb8b0e.jpeg) from page 3.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_033f62d2 (IMG_033f62d2.jpeg) from page 3.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_f3bfe823 (IMG_f3bfe823.jpeg) from page 3.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_c4d4160c (IMG_c4d4160c.jpeg) from page 3.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_a5674112 (IMG_a5674112.jpeg) from page 3.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_12373d53 (IMG_12373d53.jpeg) from page 3.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_52a85fb7 (IMG_52a85fb7.jpeg) from page 3.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_fee3aa1c (IMG_fee3aa1c.jpeg) from page 3.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_ba4a5175 (IMG_ba4a5175.jpeg) from page 3.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_06f8be82 (IMG_06f8be82.jpeg) from page 3.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_91255b3c (IMG_91255b3c.jpeg) from page 3.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_710bff53 (IMG_710bff53.jpeg) from page 3.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:75] - Found 19 image records on page 4.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_fa540b5f (IMG_fa540b5f.png) from page 4.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_c9841ead (IMG_c9841ead.jpeg) from page 4.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_b7358a88 (IMG_b7358a88.jpeg) from page 4.
+[2026-07-08 00:28:07] [WARNING] [image_extractor.py:66] - Reached limit of MAX_IMAGES (20). Stopping image extraction.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 20 images in total.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:54] - Extracting images from thermal_inspection_report.pdf...
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:75] - Found 180 image records on page 1.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_a50e2800 (IMG_a50e2800.png) from page 1.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_09c522db (IMG_09c522db.png) from page 1.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_ea610eb5 (IMG_ea610eb5.png) from page 1.
+[2026-07-08 00:28:07] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_47abc6b5 (IMG_47abc6b5.jpeg) from page 1.
+[2026-07-08 00:28:08] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_295790b5 (IMG_295790b5.jpeg) from page 1.
+[2026-07-08 00:28:08] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_98855196 (IMG_98855196.png) from page 1.
+[2026-07-08 00:28:08] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_87d91bdb (IMG_87d91bdb.png) from page 1.
+[2026-07-08 00:28:08] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_2d163ef2 (IMG_2d163ef2.png) from page 1.
+[2026-07-08 00:28:08] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_01805a0c (IMG_01805a0c.png) from page 1.
+[2026-07-08 00:28:08] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_09537ce9 (IMG_09537ce9.jpeg) from page 1.
+[2026-07-08 00:28:08] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_f74673e1 (IMG_f74673e1.jpeg) from page 1.
+[2026-07-08 00:28:08] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_6999d4d6 (IMG_6999d4d6.png) from page 1.
+[2026-07-08 00:28:08] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_8893b89f (IMG_8893b89f.png) from page 1.
+[2026-07-08 00:28:08] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_b630756a (IMG_b630756a.png) from page 1.
+[2026-07-08 00:28:08] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_93c8430e (IMG_93c8430e.png) from page 1.
+[2026-07-08 00:28:08] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_d0499606 (IMG_d0499606.jpeg) from page 1.
+[2026-07-08 00:28:08] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_06e998c0 (IMG_06e998c0.jpeg) from page 1.
+[2026-07-08 00:28:08] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_bbdf1485 (IMG_bbdf1485.png) from page 1.
+[2026-07-08 00:28:08] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_671d02c6 (IMG_671d02c6.png) from page 1.
+[2026-07-08 00:28:08] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_159b45c7 (IMG_159b45c7.png) from page 1.
+[2026-07-08 00:28:08] [WARNING] [image_extractor.py:66] - Reached limit of MAX_IMAGES (20). Stopping image extraction.
+[2026-07-08 00:28:08] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 20 images in total.
+[2026-07-08 00:29:05] [INFO] [analyzer.py:364] - Initializing multi-stage AI Diagnostics Pipeline...
+[2026-07-08 00:29:05] [INFO] [analyzer.py:385] - Stage 1 complete. Extracted 1 raw observations.
+[2026-07-08 00:29:05] [INFO] [analyzer.py:409] - Stage 2 complete. Grouped observations into 1 areas.
+[2026-07-08 00:29:05] [INFO] [analyzer.py:422] - Consolidated and analyzed observations into 1 unique findings.
+[2026-07-08 00:29:05] [INFO] [analyzer.py:429] - Stage 4 complete (reused consolidated analysis).
+[2026-07-08 00:29:05] [INFO] [analyzer.py:436] - Stage 5 complete (reused consolidated analysis).
+[2026-07-08 00:29:05] [INFO] [analyzer.py:443] - Stage 6 complete (reused consolidated analysis).
+[2026-07-08 00:29:05] [INFO] [analyzer.py:464] - Stage 7 complete. Generated recommendations and report details.
+[2026-07-08 00:29:05] [INFO] [analyzer.py:471] - Stage 8 complete (reused consolidated synthesis).
+[2026-07-08 00:29:05] [INFO] [analyzer.py:482] - DDR successfully validated against Pydantic schema!
+[2026-07-08 00:29:05] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 00:29:05] [INFO] [analyzer.py:256] - JSON repair successful! Salvaged partial data.
+[2026-07-08 00:29:05] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 00:29:05] [INFO] [analyzer.py:256] - JSON repair successful! Salvaged partial data.
+[2026-07-08 00:29:05] [WARNING] [analyzer.py:327] - JSON substring parse failed: Expecting ',' delimiter: line 10 column 6 (char 224). Attempting truncated JSON repair...
+[2026-07-08 00:29:05] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 00:29:05] [INFO] [analyzer.py:270] - JSON repair successful via fallback! Salvaged partial data.
+[2026-07-08 00:29:05] [INFO] [image_extractor.py:54] - Extracting images from image_test_report.pdf...
+[2026-07-08 00:29:05] [INFO] [image_extractor.py:75] - Found 1 image records on page 1.
+[2026-07-08 00:29:05] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_8eae7a5a (IMG_8eae7a5a.png) from page 1.
+[2026-07-08 00:29:05] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 1 images in total.
+[2026-07-08 00:29:05] [INFO] [parser.py:16] - Attempting native text extraction from: test_report.pdf
+[2026-07-08 00:29:05] [INFO] [parser.py:28] - Native extraction successful. Extracted 111 characters.
+[2026-07-08 00:29:07] [WARNING] [ocr.py:12] - Tesseract executable not found at specified path: 'C:\Program Files\Tesseract-OCR\tesseract.exe'. Will attempt to run using system PATH.
+[2026-07-08 00:29:07] [INFO] [parser.py:16] - Attempting native text extraction from: test_report.pdf
+[2026-07-08 00:29:07] [INFO] [parser.py:28] - Native extraction successful. Extracted 111 characters.
+[2026-07-08 00:29:07] [INFO] [report_generator.py:62] - Generating DOCX report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\test_run_output.docx
+[2026-07-08 00:29:07] [INFO] [report_generator.py:278] - DOCX report saved successfully.
+[2026-07-08 00:29:07] [INFO] [report_generator.py:318] - Generating PDF report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\test_run_output.pdf
+[2026-07-08 00:29:07] [INFO] [report_generator.py:567] - PDF report saved successfully.
+[2026-07-08 00:29:42] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 00:29:42] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 00:29:42] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 00:29:42] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 00:29:42] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 00:29:42] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 00:29:42] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 00:29:42] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 00:29:42] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 00:30:03] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 00:30:03] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 00:30:03] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 00:30:03] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 00:30:03] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 00:30:03] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 00:30:03] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 00:30:03] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 00:30:03] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 00:30:09] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 00:30:09] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 00:30:09] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 00:30:09] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 00:30:09] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 00:30:09] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 00:30:09] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 00:30:09] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 00:30:09] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 00:30:10] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 00:30:10] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 00:30:10] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 00:30:10] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 00:30:10] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 00:30:10] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 00:30:10] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 00:30:10] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 00:30:10] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 00:30:10] [INFO] [app.py:212] - Initializing document processing pipeline...
+[2026-07-08 00:30:10] [INFO] [app.py:212] - PDF reports written locally to temp workspace.
+[2026-07-08 00:30:10] [INFO] [app.py:212] - Step 1: Extracting images and spatial layout metadata...
+[2026-07-08 00:30:10] [INFO] [image_extractor.py:54] - Extracting images from visual_inspection_report.pdf...
+[2026-07-08 00:30:10] [INFO] [image_extractor.py:75] - Found 1 image records on page 1.
+[2026-07-08 00:30:10] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_3bff7c53 (IMG_3bff7c53.png) from page 1.
+[2026-07-08 00:30:10] [INFO] [image_extractor.py:75] - Found 1 image records on page 2.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_e05742a1 (IMG_e05742a1.png) from page 2.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:75] - Found 15 image records on page 3.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_771eda1b (IMG_771eda1b.png) from page 3.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_8b6d7cb7 (IMG_8b6d7cb7.jpeg) from page 3.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_169fe7f5 (IMG_169fe7f5.jpeg) from page 3.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_80fd1473 (IMG_80fd1473.jpeg) from page 3.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_38620271 (IMG_38620271.jpeg) from page 3.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_9415fc58 (IMG_9415fc58.jpeg) from page 3.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_eec9fdbc (IMG_eec9fdbc.jpeg) from page 3.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_da880455 (IMG_da880455.jpeg) from page 3.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_a45a221f (IMG_a45a221f.jpeg) from page 3.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_9a46b2aa (IMG_9a46b2aa.jpeg) from page 3.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_c1248a9a (IMG_c1248a9a.jpeg) from page 3.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_dfb6df57 (IMG_dfb6df57.jpeg) from page 3.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_8742e607 (IMG_8742e607.jpeg) from page 3.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_7fc4cd97 (IMG_7fc4cd97.jpeg) from page 3.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_d892f9b9 (IMG_d892f9b9.jpeg) from page 3.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:75] - Found 19 image records on page 4.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_ac6c718f (IMG_ac6c718f.png) from page 4.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_fc3e8979 (IMG_fc3e8979.jpeg) from page 4.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_02cdf173 (IMG_02cdf173.jpeg) from page 4.
+[2026-07-08 00:30:11] [WARNING] [image_extractor.py:66] - Reached limit of MAX_IMAGES (20). Stopping image extraction.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 20 images in total.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:54] - Extracting images from thermal_inspection_report.pdf...
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:75] - Found 180 image records on page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_5a602162 (IMG_5a602162.png) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_d7c34f20 (IMG_d7c34f20.png) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_dbe1b202 (IMG_dbe1b202.png) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_7cf87604 (IMG_7cf87604.jpeg) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_6e89d466 (IMG_6e89d466.jpeg) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_60dea72c (IMG_60dea72c.png) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_830879b3 (IMG_830879b3.png) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_661e0092 (IMG_661e0092.png) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_fb4d2ea9 (IMG_fb4d2ea9.png) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_4bf11a90 (IMG_4bf11a90.jpeg) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_66d6fb00 (IMG_66d6fb00.jpeg) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_f8ed8ede (IMG_f8ed8ede.png) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_9908eece (IMG_9908eece.png) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_9d15f5ee (IMG_9d15f5ee.png) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_587989a5 (IMG_587989a5.png) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_c2ef6e1c (IMG_c2ef6e1c.jpeg) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_352c524b (IMG_352c524b.jpeg) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_81d69a4b (IMG_81d69a4b.png) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_8146badc (IMG_8146badc.png) from page 1.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_618b8b92 (IMG_618b8b92.png) from page 1.
+[2026-07-08 00:30:11] [WARNING] [image_extractor.py:66] - Reached limit of MAX_IMAGES (20). Stopping image extraction.
+[2026-07-08 00:30:11] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 20 images in total.
+[2026-07-08 00:30:11] [INFO] [app.py:212] - Extracted a total of 40 images.
+[2026-07-08 00:30:11] [INFO] [app.py:212] - Step 2: Parsing document text (Native text extraction & OCR fallback)...
+[2026-07-08 00:30:11] [INFO] [parser.py:16] - Attempting native text extraction from: visual_inspection_report.pdf
+[2026-07-08 00:30:12] [INFO] [parser.py:28] - Native extraction successful. Extracted 7391 characters.
+[2026-07-08 00:30:12] [INFO] [parser.py:16] - Attempting native text extraction from: thermal_inspection_report.pdf
+[2026-07-08 00:30:12] [INFO] [parser.py:28] - Native extraction successful. Extracted 6175 characters.
+[2026-07-08 00:30:12] [INFO] [app.py:212] - Inspection text length: 7391 chars.
+[2026-07-08 00:30:12] [INFO] [app.py:212] - Thermal text length: 6175 chars.
+[2026-07-08 00:30:12] [INFO] [app.py:212] - Step 3: Activating multi-stage AI reasoning pipeline...
+[2026-07-08 00:30:12] [INFO] [analyzer.py:364] - Initializing multi-stage AI Diagnostics Pipeline...
+[2026-07-08 00:30:12] [INFO] [app.py:212] - AI Stage 1/9: Stage 1/9: Extracting raw observations from reports...
+[2026-07-08 00:30:13] [DEBUG] [analyzer.py:188] - Calling DeepSeek (qwen/qwen3.5-397b-a17b) with prompt length: 38518
+[2026-07-08 00:31:39] [DEBUG] [analyzer.py:214] - DeepSeek response character length: 4671
+[2026-07-08 00:31:39] [INFO] [analyzer.py:385] - Stage 1 complete. Extracted 15 raw observations.
+[2026-07-08 00:31:39] [INFO] [app.py:212] - AI Stage 2/9: Stage 2/9: Grouping observations by property areas...
+[2026-07-08 00:31:39] [INFO] [analyzer.py:409] - Stage 2 complete. Grouped observations into 10 areas.
+[2026-07-08 00:31:39] [INFO] [app.py:212] - AI Stage 3/9: Stage 3/9: Detecting and merging duplicate findings...
+[2026-07-08 00:31:40] [DEBUG] [analyzer.py:188] - Calling DeepSeek (qwen/qwen3.5-397b-a17b) with prompt length: 7319
+[2026-07-08 00:33:39] [DEBUG] [analyzer.py:214] - DeepSeek response character length: 10373
+[2026-07-08 00:33:39] [INFO] [analyzer.py:422] - Consolidated and analyzed observations into 10 unique findings.
+[2026-07-08 00:33:39] [INFO] [app.py:212] - AI Stage 4/9: Stage 4/9: Scanning for conflicting report data...
+[2026-07-08 00:33:39] [INFO] [analyzer.py:429] - Stage 4 complete (reused consolidated analysis).
+[2026-07-08 00:33:39] [INFO] [app.py:212] - AI Stage 5/9: Stage 5/9: Inferring probable engineering root causes...
+[2026-07-08 00:33:39] [INFO] [analyzer.py:436] - Stage 5 complete (reused consolidated analysis).
+[2026-07-08 00:33:39] [INFO] [app.py:212] - AI Stage 6/9: Stage 6/9: Assessing severities and evidence confidence...
+[2026-07-08 00:33:39] [INFO] [analyzer.py:443] - Stage 6 complete (reused consolidated analysis).
+[2026-07-08 00:33:39] [INFO] [app.py:212] - AI Stage 7/9: Stage 7/9: Generating corrective action items...
+[2026-07-08 00:33:40] [DEBUG] [analyzer.py:188] - Calling DeepSeek (qwen/qwen3.5-397b-a17b) with prompt length: 12621
+[2026-07-08 00:36:22] [DEBUG] [analyzer.py:214] - DeepSeek response character length: 16263
+[2026-07-08 00:36:22] [INFO] [analyzer.py:464] - Stage 7 complete. Generated recommendations and report details.
+[2026-07-08 00:36:22] [INFO] [app.py:212] - AI Stage 8/9: Stage 8/9: Drafting executive summary and overall risk rating...
+[2026-07-08 00:36:22] [INFO] [analyzer.py:471] - Stage 8 complete (reused consolidated synthesis).
+[2026-07-08 00:36:22] [INFO] [app.py:212] - AI Stage 9/9: Stage 9/9: Compiling final DDR and verifying Pydantic schema...
+[2026-07-08 00:36:22] [INFO] [analyzer.py:482] - DDR successfully validated against Pydantic schema!
+[2026-07-08 00:36:25] [INFO] [report_generator.py:62] - Generating DOCX report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\DDR_Report.docx
+[2026-07-08 00:36:25] [INFO] [report_generator.py:278] - DOCX report saved successfully.
+[2026-07-08 00:36:25] [INFO] [report_generator.py:318] - Generating PDF report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\DDR_Report.pdf
+[2026-07-08 00:36:25] [INFO] [report_generator.py:567] - PDF report saved successfully.
+[2026-07-08 00:39:12] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 00:39:12] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 00:39:12] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 00:39:12] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 00:39:12] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 00:39:12] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 00:39:12] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 00:39:12] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 00:39:12] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 00:39:12] [INFO] [report_generator.py:62] - Generating DOCX report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\DDR_Report.docx
+[2026-07-08 00:39:12] [INFO] [report_generator.py:278] - DOCX report saved successfully.
+[2026-07-08 00:39:12] [INFO] [report_generator.py:318] - Generating PDF report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\DDR_Report.pdf
+[2026-07-08 00:39:13] [INFO] [report_generator.py:567] - PDF report saved successfully.
+[2026-07-08 00:47:11] [INFO] [analyzer.py:364] - Initializing multi-stage AI Diagnostics Pipeline...
+[2026-07-08 00:47:11] [INFO] [analyzer.py:385] - Stage 1 complete. Extracted 1 raw observations.
+[2026-07-08 00:47:11] [INFO] [analyzer.py:409] - Stage 2 complete. Grouped observations into 1 areas.
+[2026-07-08 00:47:13] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 00:47:13] [INFO] [analyzer.py:256] - JSON repair successful! Salvaged partial data.
+[2026-07-08 00:47:13] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 00:47:13] [INFO] [analyzer.py:256] - JSON repair successful! Salvaged partial data.
+[2026-07-08 00:47:13] [WARNING] [analyzer.py:327] - JSON substring parse failed: Expecting ',' delimiter: line 10 column 6 (char 224). Attempting truncated JSON repair...
+[2026-07-08 00:47:13] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 00:47:13] [INFO] [analyzer.py:270] - JSON repair successful via fallback! Salvaged partial data.
+[2026-07-08 00:47:13] [INFO] [image_extractor.py:54] - Extracting images from image_test_report.pdf...
+[2026-07-08 00:47:13] [INFO] [image_extractor.py:75] - Found 1 image records on page 1.
+[2026-07-08 00:47:13] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_cca01e8d (IMG_cca01e8d.png) from page 1.
+[2026-07-08 00:47:13] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 1 images in total.
+[2026-07-08 00:47:13] [INFO] [parser.py:16] - Attempting native text extraction from: test_report.pdf
+[2026-07-08 00:47:13] [INFO] [parser.py:28] - Native extraction successful. Extracted 111 characters.
+[2026-07-08 00:47:15] [WARNING] [ocr.py:12] - Tesseract executable not found at specified path: 'C:\Program Files\Tesseract-OCR\tesseract.exe'. Will attempt to run using system PATH.
+[2026-07-08 00:47:15] [INFO] [parser.py:16] - Attempting native text extraction from: test_report.pdf
+[2026-07-08 00:47:15] [INFO] [parser.py:28] - Native extraction successful. Extracted 111 characters.
+[2026-07-08 00:48:03] [INFO] [analyzer.py:364] - Initializing multi-stage AI Diagnostics Pipeline...
+[2026-07-08 00:48:03] [INFO] [analyzer.py:385] - Stage 1 complete. Extracted 1 raw observations.
+[2026-07-08 00:48:03] [INFO] [analyzer.py:409] - Stage 2 complete. Grouped observations into 1 areas.
+[2026-07-08 00:48:03] [INFO] [analyzer.py:422] - Consolidated and analyzed observations into 1 unique findings.
+[2026-07-08 00:48:03] [INFO] [analyzer.py:429] - Stage 4 complete (reused consolidated analysis).
+[2026-07-08 00:48:03] [INFO] [analyzer.py:436] - Stage 5 complete (reused consolidated analysis).
+[2026-07-08 00:48:03] [INFO] [analyzer.py:443] - Stage 6 complete (reused consolidated analysis).
+[2026-07-08 00:48:03] [INFO] [analyzer.py:464] - Stage 7 complete. Generated recommendations and report details.
+[2026-07-08 00:48:03] [INFO] [analyzer.py:471] - Stage 8 complete (reused consolidated synthesis).
+[2026-07-08 00:48:03] [INFO] [analyzer.py:482] - DDR successfully validated against Pydantic schema!
+[2026-07-08 00:48:03] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 00:48:03] [INFO] [analyzer.py:256] - JSON repair successful! Salvaged partial data.
+[2026-07-08 00:48:03] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 00:48:03] [INFO] [analyzer.py:256] - JSON repair successful! Salvaged partial data.
+[2026-07-08 00:48:03] [WARNING] [analyzer.py:327] - JSON substring parse failed: Expecting ',' delimiter: line 10 column 6 (char 224). Attempting truncated JSON repair...
+[2026-07-08 00:48:03] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 00:48:03] [INFO] [analyzer.py:270] - JSON repair successful via fallback! Salvaged partial data.
+[2026-07-08 00:48:03] [INFO] [image_extractor.py:54] - Extracting images from image_test_report.pdf...
+[2026-07-08 00:48:03] [INFO] [image_extractor.py:75] - Found 1 image records on page 1.
+[2026-07-08 00:48:03] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_173a5e92 (IMG_173a5e92.png) from page 1.
+[2026-07-08 00:48:03] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 1 images in total.
+[2026-07-08 00:48:03] [INFO] [parser.py:16] - Attempting native text extraction from: test_report.pdf
+[2026-07-08 00:48:03] [INFO] [parser.py:28] - Native extraction successful. Extracted 111 characters.
+[2026-07-08 00:48:04] [WARNING] [ocr.py:12] - Tesseract executable not found at specified path: 'C:\Program Files\Tesseract-OCR\tesseract.exe'. Will attempt to run using system PATH.
+[2026-07-08 00:48:04] [INFO] [parser.py:16] - Attempting native text extraction from: test_report.pdf
+[2026-07-08 00:48:04] [INFO] [parser.py:28] - Native extraction successful. Extracted 111 characters.
+[2026-07-08 00:48:04] [INFO] [report_generator.py:62] - Generating DOCX report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\test_run_output.docx
+[2026-07-08 00:48:05] [INFO] [report_generator.py:338] - DOCX report saved successfully.
+[2026-07-08 00:48:05] [INFO] [report_generator.py:378] - Generating PDF report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\test_run_output.pdf
+[2026-07-08 00:48:05] [INFO] [report_generator.py:674] - PDF report saved successfully.
+[2026-07-08 00:48:36] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 00:48:36] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 00:48:36] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 00:48:36] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 00:48:36] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 00:48:36] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 00:48:36] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 00:48:36] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 00:48:36] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 00:48:50] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 00:48:50] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 00:48:50] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 00:48:50] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 00:48:50] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 00:48:50] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 00:48:50] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 00:48:50] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 00:48:50] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 00:48:55] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 00:48:55] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 00:48:55] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 00:48:55] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 00:48:55] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 00:48:55] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 00:48:55] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 00:48:55] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 00:48:55] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 00:48:57] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 00:48:57] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 00:48:57] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 00:48:57] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 00:48:57] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 00:48:57] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 00:48:57] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 00:48:57] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 00:48:57] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 00:48:57] [INFO] [app.py:212] - Initializing document processing pipeline...
+[2026-07-08 00:48:57] [INFO] [app.py:212] - PDF reports written locally to temp workspace.
+[2026-07-08 00:48:57] [INFO] [app.py:212] - Step 1: Extracting images and spatial layout metadata...
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:54] - Extracting images from visual_inspection_report.pdf...
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:75] - Found 1 image records on page 1.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_b21954c7 (IMG_b21954c7.png) from page 1.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:75] - Found 1 image records on page 2.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_e605764e (IMG_e605764e.png) from page 2.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:75] - Found 15 image records on page 3.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_dd53051f (IMG_dd53051f.png) from page 3.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_61ba30d4 (IMG_61ba30d4.jpeg) from page 3.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_5c18e764 (IMG_5c18e764.jpeg) from page 3.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_a1a8d896 (IMG_a1a8d896.jpeg) from page 3.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_f3c802cf (IMG_f3c802cf.jpeg) from page 3.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_b1e6e049 (IMG_b1e6e049.jpeg) from page 3.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_0f23c96e (IMG_0f23c96e.jpeg) from page 3.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_2746dc05 (IMG_2746dc05.jpeg) from page 3.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_f9fcce77 (IMG_f9fcce77.jpeg) from page 3.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_a83e34d1 (IMG_a83e34d1.jpeg) from page 3.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_3321e6eb (IMG_3321e6eb.jpeg) from page 3.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_b0c25058 (IMG_b0c25058.jpeg) from page 3.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_fab3c27f (IMG_fab3c27f.jpeg) from page 3.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_3c4975e0 (IMG_3c4975e0.jpeg) from page 3.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_0ff8434f (IMG_0ff8434f.jpeg) from page 3.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:75] - Found 19 image records on page 4.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_45c337df (IMG_45c337df.png) from page 4.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_e3d9844f (IMG_e3d9844f.jpeg) from page 4.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_91b97661 (IMG_91b97661.jpeg) from page 4.
+[2026-07-08 00:48:57] [WARNING] [image_extractor.py:66] - Reached limit of MAX_IMAGES (20). Stopping image extraction.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 20 images in total.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:54] - Extracting images from thermal_inspection_report.pdf...
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:75] - Found 180 image records on page 1.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_c92dbb4e (IMG_c92dbb4e.png) from page 1.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_8676a6bb (IMG_8676a6bb.png) from page 1.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_bdf024bb (IMG_bdf024bb.png) from page 1.
+[2026-07-08 00:48:57] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_44b05af0 (IMG_44b05af0.jpeg) from page 1.
+[2026-07-08 00:48:58] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_600167e7 (IMG_600167e7.jpeg) from page 1.
+[2026-07-08 00:48:58] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_5d3314fa (IMG_5d3314fa.png) from page 1.
+[2026-07-08 00:48:58] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_368c98f9 (IMG_368c98f9.png) from page 1.
+[2026-07-08 00:48:58] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_8a3a0b4f (IMG_8a3a0b4f.png) from page 1.
+[2026-07-08 00:48:58] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_3b3ce0be (IMG_3b3ce0be.png) from page 1.
+[2026-07-08 00:48:58] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_24d21642 (IMG_24d21642.jpeg) from page 1.
+[2026-07-08 00:48:58] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_c19feed5 (IMG_c19feed5.jpeg) from page 1.
+[2026-07-08 00:48:58] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_138b47d5 (IMG_138b47d5.png) from page 1.
+[2026-07-08 00:48:58] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_dc32424a (IMG_dc32424a.png) from page 1.
+[2026-07-08 00:48:58] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_70a11001 (IMG_70a11001.png) from page 1.
+[2026-07-08 00:48:58] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_0d493505 (IMG_0d493505.png) from page 1.
+[2026-07-08 00:48:58] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_f70302c5 (IMG_f70302c5.jpeg) from page 1.
+[2026-07-08 00:48:58] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_a9026659 (IMG_a9026659.jpeg) from page 1.
+[2026-07-08 00:48:58] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_a0eb95c2 (IMG_a0eb95c2.png) from page 1.
+[2026-07-08 00:48:58] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_e86e9a07 (IMG_e86e9a07.png) from page 1.
+[2026-07-08 00:48:58] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_c54cab03 (IMG_c54cab03.png) from page 1.
+[2026-07-08 00:48:58] [WARNING] [image_extractor.py:66] - Reached limit of MAX_IMAGES (20). Stopping image extraction.
+[2026-07-08 00:48:58] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 20 images in total.
+[2026-07-08 00:48:58] [INFO] [app.py:212] - Extracted a total of 40 images.
+[2026-07-08 00:48:58] [INFO] [app.py:212] - Step 2: Parsing document text (Native text extraction & OCR fallback)...
+[2026-07-08 00:48:58] [INFO] [parser.py:16] - Attempting native text extraction from: visual_inspection_report.pdf
+[2026-07-08 00:48:58] [INFO] [parser.py:28] - Native extraction successful. Extracted 7391 characters.
+[2026-07-08 00:48:58] [INFO] [parser.py:16] - Attempting native text extraction from: thermal_inspection_report.pdf
+[2026-07-08 00:48:58] [INFO] [parser.py:28] - Native extraction successful. Extracted 6175 characters.
+[2026-07-08 00:48:58] [INFO] [app.py:212] - Inspection text length: 7391 chars.
+[2026-07-08 00:48:58] [INFO] [app.py:212] - Thermal text length: 6175 chars.
+[2026-07-08 00:48:58] [INFO] [app.py:212] - Step 3: Activating multi-stage AI reasoning pipeline...
+[2026-07-08 00:48:58] [INFO] [analyzer.py:364] - Initializing multi-stage AI Diagnostics Pipeline...
+[2026-07-08 00:48:58] [INFO] [app.py:212] - AI Stage 1/9: Stage 1/9: Extracting raw observations from reports...
+[2026-07-08 00:48:59] [DEBUG] [analyzer.py:188] - Calling DeepSeek (qwen/qwen3.5-397b-a17b) with prompt length: 38518
+[2026-07-08 00:51:15] [DEBUG] [analyzer.py:214] - DeepSeek response character length: 4374
+[2026-07-08 00:51:15] [INFO] [analyzer.py:385] - Stage 1 complete. Extracted 15 raw observations.
+[2026-07-08 00:51:15] [INFO] [app.py:212] - AI Stage 2/9: Stage 2/9: Grouping observations by property areas...
+[2026-07-08 00:51:15] [INFO] [analyzer.py:409] - Stage 2 complete. Grouped observations into 11 areas.
+[2026-07-08 00:51:15] [INFO] [app.py:212] - AI Stage 3/9: Stage 3/9: Detecting and merging duplicate findings...
+[2026-07-08 00:51:17] [DEBUG] [analyzer.py:188] - Calling DeepSeek (qwen/qwen3.5-397b-a17b) with prompt length: 8516
+[2026-07-08 00:54:47] [DEBUG] [analyzer.py:214] - DeepSeek response character length: 18807
+[2026-07-08 00:54:47] [INFO] [analyzer.py:422] - Consolidated and analyzed observations into 9 unique findings.
+[2026-07-08 00:54:47] [INFO] [app.py:212] - AI Stage 4/9: Stage 4/9: Scanning for conflicting report data...
+[2026-07-08 00:54:47] [INFO] [analyzer.py:429] - Stage 4 complete (reused consolidated analysis).
+[2026-07-08 00:54:47] [INFO] [app.py:212] - AI Stage 5/9: Stage 5/9: Inferring probable engineering root causes...
+[2026-07-08 00:54:47] [INFO] [analyzer.py:436] - Stage 5 complete (reused consolidated analysis).
+[2026-07-08 00:54:47] [INFO] [app.py:212] - AI Stage 6/9: Stage 6/9: Assessing severities and evidence confidence...
+[2026-07-08 00:54:47] [INFO] [analyzer.py:443] - Stage 6 complete (reused consolidated analysis).
+[2026-07-08 00:54:47] [INFO] [app.py:212] - AI Stage 7/9: Stage 7/9: Generating corrective action items...
+[2026-07-08 00:54:48] [DEBUG] [analyzer.py:188] - Calling DeepSeek (qwen/qwen3.5-397b-a17b) with prompt length: 21884
+[2026-07-08 00:57:59] [DEBUG] [analyzer.py:214] - DeepSeek response character length: 26059
+[2026-07-08 00:57:59] [INFO] [analyzer.py:464] - Stage 7 complete. Generated recommendations and report details.
+[2026-07-08 00:57:59] [INFO] [app.py:212] - AI Stage 8/9: Stage 8/9: Drafting executive summary and overall risk rating...
+[2026-07-08 00:57:59] [INFO] [analyzer.py:471] - Stage 8 complete (reused consolidated synthesis).
+[2026-07-08 00:57:59] [INFO] [app.py:212] - AI Stage 9/9: Stage 9/9: Compiling final DDR and verifying Pydantic schema...
+[2026-07-08 00:57:59] [INFO] [analyzer.py:482] - DDR successfully validated against Pydantic schema!
+[2026-07-08 00:58:03] [INFO] [report_generator.py:62] - Generating DOCX report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\DDR_Report.docx
+[2026-07-08 00:58:03] [INFO] [report_generator.py:338] - DOCX report saved successfully.
+[2026-07-08 00:58:03] [INFO] [report_generator.py:378] - Generating PDF report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\DDR_Report.pdf
+[2026-07-08 00:58:03] [INFO] [report_generator.py:674] - PDF report saved successfully.
+[2026-07-08 00:58:46] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 00:58:46] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 00:58:46] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 00:58:46] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 00:58:46] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 00:58:46] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 00:58:46] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 00:58:46] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 00:58:46] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 00:58:46] [INFO] [report_generator.py:62] - Generating DOCX report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\DDR_Report.docx
+[2026-07-08 00:58:47] [INFO] [report_generator.py:338] - DOCX report saved successfully.
+[2026-07-08 00:58:47] [INFO] [report_generator.py:378] - Generating PDF report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\DDR_Report.pdf
+[2026-07-08 00:58:47] [INFO] [report_generator.py:674] - PDF report saved successfully.
+[2026-07-08 01:11:41] [INFO] [analyzer.py:364] - Initializing multi-stage AI Diagnostics Pipeline...
+[2026-07-08 01:11:41] [INFO] [analyzer.py:385] - Stage 1 complete. Extracted 1 raw observations.
+[2026-07-08 01:11:41] [INFO] [analyzer.py:409] - Stage 2 complete. Grouped observations into 1 areas.
+[2026-07-08 01:11:41] [INFO] [analyzer.py:422] - Consolidated and analyzed observations into 1 unique findings.
+[2026-07-08 01:11:41] [INFO] [analyzer.py:429] - Stage 4 complete (reused consolidated analysis).
+[2026-07-08 01:11:41] [INFO] [analyzer.py:436] - Stage 5 complete (reused consolidated analysis).
+[2026-07-08 01:11:41] [INFO] [analyzer.py:443] - Stage 6 complete (reused consolidated analysis).
+[2026-07-08 01:11:41] [INFO] [analyzer.py:464] - Stage 7 complete. Generated recommendations and report details.
+[2026-07-08 01:11:41] [INFO] [analyzer.py:471] - Stage 8 complete (reused consolidated synthesis).
+[2026-07-08 01:11:41] [INFO] [analyzer.py:482] - DDR successfully validated against Pydantic schema!
+[2026-07-08 01:11:41] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 01:11:41] [INFO] [analyzer.py:256] - JSON repair successful! Salvaged partial data.
+[2026-07-08 01:11:41] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 01:11:41] [INFO] [analyzer.py:256] - JSON repair successful! Salvaged partial data.
+[2026-07-08 01:11:41] [WARNING] [analyzer.py:327] - JSON substring parse failed: Expecting ',' delimiter: line 10 column 6 (char 224). Attempting truncated JSON repair...
+[2026-07-08 01:11:41] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 01:11:41] [INFO] [analyzer.py:270] - JSON repair successful via fallback! Salvaged partial data.
+[2026-07-08 01:11:41] [INFO] [image_extractor.py:54] - Extracting images from image_test_report.pdf...
+[2026-07-08 01:11:41] [INFO] [image_extractor.py:75] - Found 1 image records on page 1.
+[2026-07-08 01:11:41] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_255c8db2 (IMG_255c8db2.png) from page 1.
+[2026-07-08 01:11:41] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 1 images in total.
+[2026-07-08 01:11:41] [INFO] [parser.py:16] - Attempting native text extraction from: test_report.pdf
+[2026-07-08 01:11:41] [INFO] [parser.py:28] - Native extraction successful. Extracted 111 characters.
+[2026-07-08 01:11:43] [WARNING] [ocr.py:12] - Tesseract executable not found at specified path: 'C:\Program Files\Tesseract-OCR\tesseract.exe'. Will attempt to run using system PATH.
+[2026-07-08 01:11:43] [INFO] [parser.py:16] - Attempting native text extraction from: test_report.pdf
+[2026-07-08 01:11:43] [INFO] [parser.py:28] - Native extraction successful. Extracted 111 characters.
+[2026-07-08 01:11:43] [INFO] [report_generator.py:62] - Generating DOCX report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\test_run_output.docx
+[2026-07-08 01:11:43] [INFO] [report_generator.py:338] - DOCX report saved successfully.
+[2026-07-08 01:11:43] [INFO] [report_generator.py:378] - Generating PDF report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\test_run_output.pdf
+[2026-07-08 01:11:43] [INFO] [report_generator.py:674] - PDF report saved successfully.
+[2026-07-08 01:12:13] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 01:12:13] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 01:12:13] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 01:12:13] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 01:12:13] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 01:12:13] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 01:12:13] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 01:12:13] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 01:12:13] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 01:13:59] [INFO] [analyzer.py:364] - Initializing multi-stage AI Diagnostics Pipeline...
+[2026-07-08 01:13:59] [INFO] [analyzer.py:385] - Stage 1 complete. Extracted 1 raw observations.
+[2026-07-08 01:13:59] [INFO] [analyzer.py:409] - Stage 2 complete. Grouped observations into 1 areas.
+[2026-07-08 01:13:59] [INFO] [analyzer.py:422] - Consolidated and analyzed observations into 1 unique findings.
+[2026-07-08 01:13:59] [INFO] [analyzer.py:429] - Stage 4 complete (reused consolidated analysis).
+[2026-07-08 01:13:59] [INFO] [analyzer.py:436] - Stage 5 complete (reused consolidated analysis).
+[2026-07-08 01:13:59] [INFO] [analyzer.py:443] - Stage 6 complete (reused consolidated analysis).
+[2026-07-08 01:13:59] [INFO] [analyzer.py:464] - Stage 7 complete. Generated recommendations and report details.
+[2026-07-08 01:13:59] [INFO] [analyzer.py:471] - Stage 8 complete (reused consolidated synthesis).
+[2026-07-08 01:13:59] [INFO] [analyzer.py:482] - DDR successfully validated against Pydantic schema!
+[2026-07-08 01:13:59] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 01:13:59] [INFO] [analyzer.py:256] - JSON repair successful! Salvaged partial data.
+[2026-07-08 01:13:59] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 01:13:59] [INFO] [analyzer.py:256] - JSON repair successful! Salvaged partial data.
+[2026-07-08 01:13:59] [WARNING] [analyzer.py:327] - JSON substring parse failed: Expecting ',' delimiter: line 10 column 6 (char 224). Attempting truncated JSON repair...
+[2026-07-08 01:13:59] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 01:13:59] [INFO] [analyzer.py:270] - JSON repair successful via fallback! Salvaged partial data.
+[2026-07-08 01:13:59] [INFO] [image_extractor.py:54] - Extracting images from image_test_report.pdf...
+[2026-07-08 01:13:59] [INFO] [image_extractor.py:75] - Found 1 image records on page 1.
+[2026-07-08 01:13:59] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_cb05e4d5 (IMG_cb05e4d5.png) from page 1.
+[2026-07-08 01:13:59] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 1 images in total.
+[2026-07-08 01:14:00] [INFO] [parser.py:16] - Attempting native text extraction from: test_report.pdf
+[2026-07-08 01:14:00] [INFO] [parser.py:28] - Native extraction successful. Extracted 111 characters.
+[2026-07-08 01:14:01] [WARNING] [ocr.py:12] - Tesseract executable not found at specified path: 'C:\Program Files\Tesseract-OCR\tesseract.exe'. Will attempt to run using system PATH.
+[2026-07-08 01:14:01] [INFO] [parser.py:16] - Attempting native text extraction from: test_report.pdf
+[2026-07-08 01:14:01] [INFO] [parser.py:28] - Native extraction successful. Extracted 111 characters.
+[2026-07-08 01:14:01] [INFO] [report_generator.py:62] - Generating DOCX report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\test_run_output.docx
+[2026-07-08 01:14:01] [INFO] [report_generator.py:338] - DOCX report saved successfully.
+[2026-07-08 01:14:01] [INFO] [report_generator.py:378] - Generating PDF report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\test_run_output.pdf
+[2026-07-08 01:14:01] [INFO] [report_generator.py:674] - PDF report saved successfully.
+[2026-07-08 01:14:40] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 01:14:40] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 01:14:40] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 01:14:40] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 01:14:40] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 01:14:40] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 01:14:40] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 01:14:40] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 01:14:40] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 01:16:02] [INFO] [analyzer.py:364] - Initializing multi-stage AI Diagnostics Pipeline...
+[2026-07-08 01:16:02] [INFO] [analyzer.py:385] - Stage 1 complete. Extracted 1 raw observations.
+[2026-07-08 01:16:02] [INFO] [analyzer.py:409] - Stage 2 complete. Grouped observations into 1 areas.
+[2026-07-08 01:16:02] [INFO] [analyzer.py:422] - Consolidated and analyzed observations into 1 unique findings.
+[2026-07-08 01:16:02] [INFO] [analyzer.py:429] - Stage 4 complete (reused consolidated analysis).
+[2026-07-08 01:16:02] [INFO] [analyzer.py:436] - Stage 5 complete (reused consolidated analysis).
+[2026-07-08 01:16:02] [INFO] [analyzer.py:443] - Stage 6 complete (reused consolidated analysis).
+[2026-07-08 01:16:02] [INFO] [analyzer.py:464] - Stage 7 complete. Generated recommendations and report details.
+[2026-07-08 01:16:02] [INFO] [analyzer.py:471] - Stage 8 complete (reused consolidated synthesis).
+[2026-07-08 01:16:02] [INFO] [analyzer.py:482] - DDR successfully validated against Pydantic schema!
+[2026-07-08 01:16:02] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 01:16:02] [INFO] [analyzer.py:256] - JSON repair successful! Salvaged partial data.
+[2026-07-08 01:16:02] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 01:16:02] [INFO] [analyzer.py:256] - JSON repair successful! Salvaged partial data.
+[2026-07-08 01:16:02] [WARNING] [analyzer.py:327] - JSON substring parse failed: Expecting ',' delimiter: line 10 column 6 (char 224). Attempting truncated JSON repair...
+[2026-07-08 01:16:02] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 01:16:02] [INFO] [analyzer.py:270] - JSON repair successful via fallback! Salvaged partial data.
+[2026-07-08 01:16:02] [INFO] [image_extractor.py:54] - Extracting images from image_test_report.pdf...
+[2026-07-08 01:16:02] [INFO] [image_extractor.py:75] - Found 1 image records on page 1.
+[2026-07-08 01:16:02] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_0bcebd58 (IMG_0bcebd58.png) from page 1.
+[2026-07-08 01:16:02] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 1 images in total.
+[2026-07-08 01:16:02] [INFO] [parser.py:16] - Attempting native text extraction from: test_report.pdf
+[2026-07-08 01:16:02] [INFO] [parser.py:28] - Native extraction successful. Extracted 111 characters.
+[2026-07-08 01:16:03] [WARNING] [ocr.py:12] - Tesseract executable not found at specified path: 'C:\Program Files\Tesseract-OCR\tesseract.exe'. Will attempt to run using system PATH.
+[2026-07-08 01:16:03] [INFO] [parser.py:16] - Attempting native text extraction from: test_report.pdf
+[2026-07-08 01:16:03] [INFO] [parser.py:28] - Native extraction successful. Extracted 111 characters.
+[2026-07-08 01:16:03] [INFO] [report_generator.py:62] - Generating DOCX report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\test_run_output.docx
+[2026-07-08 01:16:03] [INFO] [report_generator.py:338] - DOCX report saved successfully.
+[2026-07-08 01:16:03] [INFO] [report_generator.py:378] - Generating PDF report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\test_run_output.pdf
+[2026-07-08 01:16:03] [INFO] [report_generator.py:674] - PDF report saved successfully.
+[2026-07-08 01:16:34] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 01:16:34] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 01:16:34] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 01:16:34] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 01:16:34] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 01:16:34] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 01:16:34] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 01:16:34] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 01:16:34] [INFO] [utils.py:21] - Workspace initialization complete.
+[2026-07-08 01:18:03] [INFO] [analyzer.py:364] - Initializing multi-stage AI Diagnostics Pipeline...
+[2026-07-08 01:18:03] [INFO] [analyzer.py:385] - Stage 1 complete. Extracted 1 raw observations.
+[2026-07-08 01:18:03] [INFO] [analyzer.py:409] - Stage 2 complete. Grouped observations into 1 areas.
+[2026-07-08 01:18:03] [INFO] [analyzer.py:422] - Consolidated and analyzed observations into 1 unique findings.
+[2026-07-08 01:18:03] [INFO] [analyzer.py:429] - Stage 4 complete (reused consolidated analysis).
+[2026-07-08 01:18:03] [INFO] [analyzer.py:436] - Stage 5 complete (reused consolidated analysis).
+[2026-07-08 01:18:03] [INFO] [analyzer.py:443] - Stage 6 complete (reused consolidated analysis).
+[2026-07-08 01:18:03] [INFO] [analyzer.py:464] - Stage 7 complete. Generated recommendations and report details.
+[2026-07-08 01:18:03] [INFO] [analyzer.py:471] - Stage 8 complete (reused consolidated synthesis).
+[2026-07-08 01:18:03] [INFO] [analyzer.py:482] - DDR successfully validated against Pydantic schema!
+[2026-07-08 01:18:03] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 01:18:03] [INFO] [analyzer.py:256] - JSON repair successful! Salvaged partial data.
+[2026-07-08 01:18:03] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 01:18:03] [INFO] [analyzer.py:256] - JSON repair successful! Salvaged partial data.
+[2026-07-08 01:18:03] [WARNING] [analyzer.py:327] - JSON substring parse failed: Expecting ',' delimiter: line 10 column 6 (char 224). Attempting truncated JSON repair...
+[2026-07-08 01:18:03] [INFO] [analyzer.py:238] - Attempting to repair truncated JSON...
+[2026-07-08 01:18:03] [INFO] [analyzer.py:270] - JSON repair successful via fallback! Salvaged partial data.
+[2026-07-08 01:18:04] [INFO] [image_extractor.py:54] - Extracting images from image_test_report.pdf...
+[2026-07-08 01:18:04] [INFO] [image_extractor.py:75] - Found 1 image records on page 1.
+[2026-07-08 01:18:04] [INFO] [image_extractor.py:129] - Successfully extracted and saved image IMG_af2abd51 (IMG_af2abd51.png) from page 1.
+[2026-07-08 01:18:04] [INFO] [image_extractor.py:135] - Finished image extraction. Extracted 1 images in total.
+[2026-07-08 01:18:04] [INFO] [parser.py:16] - Attempting native text extraction from: test_report.pdf
+[2026-07-08 01:18:04] [INFO] [parser.py:28] - Native extraction successful. Extracted 111 characters.
+[2026-07-08 01:18:05] [WARNING] [ocr.py:12] - Tesseract executable not found at specified path: 'C:\Program Files\Tesseract-OCR\tesseract.exe'. Will attempt to run using system PATH.
+[2026-07-08 01:18:05] [INFO] [parser.py:16] - Attempting native text extraction from: test_report.pdf
+[2026-07-08 01:18:05] [INFO] [parser.py:28] - Native extraction successful. Extracted 111 characters.
+[2026-07-08 01:18:05] [INFO] [report_generator.py:62] - Generating DOCX report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\test_run_output.docx
+[2026-07-08 01:18:05] [INFO] [report_generator.py:338] - DOCX report saved successfully.
+[2026-07-08 01:18:05] [INFO] [report_generator.py:378] - Generating PDF report at: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports\test_run_output.pdf
+[2026-07-08 01:18:05] [INFO] [report_generator.py:674] - PDF report saved successfully.
+[2026-07-08 01:18:39] [INFO] [utils.py:13] - Initializing DDR AI application workspace...
+[2026-07-08 01:18:39] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\output
+[2026-07-08 01:18:39] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\logs
+[2026-07-08 01:18:39] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\extracted_images
+[2026-07-08 01:18:39] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\reports
+[2026-07-08 01:18:39] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\assets
+[2026-07-08 01:18:39] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\templates
+[2026-07-08 01:18:39] [INFO] [utils.py:17] - Directory verified/created: C:\Users\Prathamesh\.gemini\antigravity\scratch\DDR_AI\tests
+[2026-07-08 01:18:39] [INFO] [utils.py:21] - Workspace initialization complete.

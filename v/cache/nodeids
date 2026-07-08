@@ -1,0 +1,12 @@
+[
+  "tests/test_analyzer.py::test_repair_truncated_json_basic",
+  "tests/test_analyzer.py::test_repair_truncated_json_multiple_complete",
+  "tests/test_analyzer.py::test_run_analysis_pipeline",
+  "tests/test_analyzer.py::test_safe_parse_json_with_truncated_input",
+  "tests/test_image_extractor.py::test_extract_images_metadata",
+  "tests/test_image_extractor.py::test_get_nearby_text",
+  "tests/test_parser.py::test_extract_pdf_text_native",
+  "tests/test_parser.py::test_extract_text_threshold_check",
+  "tests/test_report_generator.py::test_generate_docx_report",
+  "tests/test_report_generator.py::test_generate_pdf_report"
+]
